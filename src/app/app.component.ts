@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  public countedValue = 0 ;
+  public valorCont= 0;
+  public stepAct= 0
+
+  onFirstPlusClick(valor){
+    console.log("Click N°:" + valor );
+  }
+
+  devolverValor(valor) {
+    this.valorCont = valor;
+  }
+
+  asignarStep(valor) {
+    this.stepAct = valor
+  }
 }

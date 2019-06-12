@@ -1,0 +1,3 @@
+Para instalar ng new nombre
+              ng serve
+para los componentes ng new component nombre
